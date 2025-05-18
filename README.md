@@ -55,10 +55,6 @@ For full help:
 ./install.sh --help
 ```
 
-## Add-ons
-
-For a better command-line experience, try: [`zsh-syntax-highlighting`](https://github.com/zsh-users/zsh-syntax-highlighting).
-
 ## Uninstall / Revert
 
 To reset your terminal colors:
@@ -70,14 +66,6 @@ To reset your terminal colors:
   ```bash
   gconftool-2 --recursive-unset /apps/gnome-terminal
   ```
-
-## Localization
-
-To extract all user-facing strings for review or translation:
-```bash
-./extract_strings.sh
-```
-This outputs a `languagefile.txt` containing the text used by the scripts.
 
 ## Directory Structure
 
